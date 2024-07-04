@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satkrit Rai's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Satkrit Rai</div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm an aspiring <span class="highlight">Software Engineer</span></p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a student at Harcourt Butler Technical University, Kanpur, currently in my 3rd year of B.Tech in Computer Science & Engineering. I am a master at the Code360 platform of Coding Ninjas and have solved over 800 problems on platforms like Code360 of Coding Ninjas and Leetcode. Currently, I am a summer intern at DRDO Kanpur, working on blockchain and cryptography. Additionally, I am a full-stack web developer with knowledge of the MERN stack.</p>
+            <p>Check out my coding profile on <a href="https://www.codingninjas.com/studio/profile/8ea70e25-0401-45f2-9c0e-4ed86c428287" target="_blank"><i class="fas fa-laptop-code"></i> </a>.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>SUDOKU SOLVER (07/2023 - 08/2023)</h3>
+                    <p>A C++17-compatible header that provides useful functions which help with solving, validation, and generation of 9x9 Sudoku puzzles.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Myntra Website Clone (01/2024 - 02/2024)</h3>
+                    <p>Created a clone of the Myntra website using HTML, CSS, JavaScript, and React. Demonstrated proficiency in web development and meticulous attention to detail.</p>
+                </div>
+                <div class="project-card">
+                    <h3>To Do App (02/2024 - 03/2024)</h3>
+                    <p>Developed a responsive To-Do app using React, incorporating intuitive user interfaces for efficient task management. Demonstrated proficiency in React and enhanced problem-solving skills in creating a user-friendly productivity tool.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+          <h2>Contact Me</h2>
+          <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+              <div class="form-group">
+                  <input type="text" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                  <input type="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                  <textarea name="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit">Send</button>
+          </form>
+      </div>
+  </section>
+
+    <footer>
+        <p>&copy; 2024 Satkrit Rai. All rights reserved.</p>
+    </footer>
+</body>
+</html>
